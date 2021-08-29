@@ -1,6 +1,6 @@
 # UHA
 
-UHA (Unusable Hashing Algorythm), is a very slow hashing algorythm made over the weekend.
+UHA (Unusable Hashing Algorythm), is a very slow hashing algorythm made over a weekend.
 The algorythm takes 11s to hash a 76KB EXE file.
 
 ## How Does It Work?
@@ -15,7 +15,7 @@ as all of this is done in hex we get the first hex value
 from the string 1010202130213011404130 > 10
 and then we get first value of the second string  
 9070890901203210990289328932094 > 90 then we add the 2 values so `90 + 10 = 100`
-if the value is greater than 100 we take away 100 so in this intance 
+if the value is greater than 100 we take away 100 so in this instance 
 we will do `100 - 100` and we will get `00` then we append it to a
 spare string `string += 00` then we repeat it for all the 32 symbols 
 so 2 32 byte strings gets turned into 1. We repeat this entire sequence until 
