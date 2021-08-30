@@ -31,6 +31,7 @@ all of the 32 byte values have been turned into 1, then that is returned as our 
 								 ['32 chars']
                  
 ## How to use it
+### Installation
 1. download the .py file and put into the same directory as your source code
 2. import it `import uha`
 3. call the function `uha.uHash(string)`
