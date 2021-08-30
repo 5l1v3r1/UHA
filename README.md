@@ -1,7 +1,7 @@
 # UHA
 
 UHA (Unusable Hashing Algorythm), is a very slow hashing algorythm made over a weekend.
-The algorythm takes 11s to hash a 76KB EXE file.
+The algorythm takes 45s to hash a 76KB EXE file.
 
 ## How Does It Work?
 The input gets converted to an array: `'hello' > ['h','e','l','l','o']`
