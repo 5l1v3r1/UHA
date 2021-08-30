@@ -34,3 +34,7 @@ all of the 32 byte values have been turned into 1, then that is returned as our 
 1. download the .py file and put into the same directory as your source code
 2. import it `import uha`
 3. call the function `uha.uHash(string)`
+
+## Unit Tester
+When you launch unit_test.py it will hash all of the files under the folder to_hash.
+It will print the length of the hash (it should always be 96) the hash of the file and the time taken to hash the file.
